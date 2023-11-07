@@ -24,6 +24,7 @@ a {
 .top li {
   color: white;
   margin-right: 7px;
+  margin-top: 10px;
 }
 
 nav #search {
@@ -166,4 +167,40 @@ nav ul {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.end-point {
+  background: #F7F7F9;
+  padding: 40px;
+}
+.end-point .col-12 {
+  border: 0px solid;
+  width: 500px;
+}
+.end-point .all-details {
+  justify-content: space-around;
+}
+.end-point .footer-details {
+  gap: 70px;
+  margin-left: 250px;
+}
+.end-point .col-2 {
+  width: 100px;
+}
+.end-point .head-of-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.end-point .snobella {
+  font-size: 23px;
+}
+
+.the-end {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.the-end li {
+  padding: 7px;
 }/*# sourceMappingURL=main.css.map */
