@@ -1,0 +1,77 @@
+.top {
+
+    background: #007878;
+    height: 48px;
+
+
+    li{
+        color: white;
+        margin-right: 7px;
+    }
+    
+
+}
+
+
+nav {
+
+   
+
+    #search {
+
+        width: 504px;
+        height: 48px;
+        margin-right: 100px;
+        border-radius: 8px;
+        background: #F7F9FC;
+        position: relative;
+        
+    }
+
+    .search-icon{
+        position: absolute;
+        margin-left: 36%;
+        margin-top: 10px;
+    }
+
+    .container-fluid{
+
+        padding: 30px;
+      
+       
+    }
+
+    .navbar-brand{
+
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    ul{
+        margin-left: 70px;
+    }
+ 
+    
+}
+
+
+.bags {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    li{
+        display: flex;
+        gap: 30px;
+        color: #273142;
+    }
+}
+
+.bags{
+
+    margin-left: 100px;
+}
+
+
