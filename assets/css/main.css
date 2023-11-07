@@ -17,6 +17,55 @@ a {
   text-decoration: none;
 }
 
+.top {
+  background: #007878;
+  height: 48px;
+}
+.top li {
+  color: white;
+  margin-right: 7px;
+}
+
+nav #search {
+  width: 504px;
+  height: 48px;
+  margin-right: 100px;
+  border-radius: 8px;
+  background: #F7F9FC;
+  position: relative;
+}
+nav .search-icon {
+  position: absolute;
+  margin-left: 36%;
+  margin-top: 10px;
+}
+nav .container-fluid {
+  padding: 30px;
+}
+nav .navbar-brand {
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+nav ul {
+  margin-left: 70px;
+}
+
+.bags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bags li {
+  display: flex;
+  gap: 30px;
+  color: #273142;
+}
+
+.bags {
+  margin-left: 100px;
+}
+
 #slider {
   background-color: #ffe2e0;
   height: 584px;
