@@ -432,3 +432,393 @@
     }
   }
 }
+
+
+
+
+.main{
+
+
+  .arrow{
+    margin-top: 30px;
+    margin-left: 50px;
+    gap: 4px;
+
+    svg{
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    p{
+      color: rgba(29, 29, 29, 0.75);
+
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%; /* 23.8px */
+    }
+
+    h5{
+      color: #1D1D1D;
+
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%; /* 23.8px */
+    }
+    
+  }
+
+
+  .cat{
+
+    margin-top: 14px;
+    margin-left: 50px;
+
+    h4{
+
+      color: #212121;
+
+      font-family: Rubik;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%; /* 68px */
+    }
+  }
+
+  .result{
+
+    gap: 10px;
+    margin-left: 80%;
+
+    .featured{
+    
+      border-radius: 8px;
+      border: 1px solid #D0D0D0;
+      background: white;
+      width: 140px;
+      height: 40px;
+      flex-shrink: 0;
+      
+    }
+
+    p{
+      color: rgba(33, 33, 33, 0.90);
+
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%; /* 27.2px */
+    }
+  }
+
+
+.page-list{
+
+  justify-content: space-between;
+
+  margin-top: 70px;
+
+  margin-left: 40px;
+ 
+
+  .container{
+
+    width: 70%;
+
+  }
+
+  .box-1{
+
+    border-radius: 8px;
+    border: 1px solid #D0D0D0;
+    width: 326px;
+    height: 340px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .bag-variants{
+
+      margin-top: 15px;
+
+      li{
+        margin-top: 5px;
+      }
+    }
+    
+
+  }
+
+
+  .box-2 {
+
+    width: 326px;
+    height: 146px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+    .price-min{
+
+      width: 72px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid #C8C8C8;
+      margin-right: 7px;
+    }
+
+    .price-max{
+
+      width: 72px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid #C8C8C8;
+      margin-left: 7px;
+
+    }
+
+    .for-prices {
+
+      width: 51px;
+      height: 40px;
+      flex-shrink: 0;
+      background: #EF544F;
+      border: none;
+      border-radius: 8px;
+      margin-left: 7px;
+    }
+
+    .about-the-price{
+
+      margin-top: 20px;
+    }
+  }
+
+  .box-3 {
+
+    width: 326px;
+    height: 139px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #D0D0D0;
+    margin-top: 10px;
+
+
+    .sizes{
+
+      margin-top: 20px;
+    }
+
+
+    .size{
+
+      width: 64px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid #C8C8C8;
+    }
+  }
+
+
+  .box-4{
+
+    width: 326px;
+    height: 159px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #D0D0D0;
+    margin-top: 10px;
+
+
+    .color{
+
+      margin-top: 20px;
+
+      .dark-green{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #275240;
+        cursor: pointer;
+      }
+
+      .blue{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #0085FF;
+        margin-left: 7px;
+        cursor: pointer;
+
+      }
+
+      .dark-brown{
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #3D2A33;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .brown{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #773838;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .black{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #000;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .green{
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #307E46;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .seablue{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #0085FF;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+
+      .orange{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #FF6B00;
+        cursor: pointer;
+      }
+
+      .yellow{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #D6B73B;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .purple{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #7C4DFF;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .dark-orange{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #F75145;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .dark-purple{
+
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #842759;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .light-brown{
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #895C31;
+        margin-left: 7px;
+        cursor: pointer;
+      }
+
+      .color-2{
+        margin-top: 10px;
+      }
+    }
+
+  }
+
+  .svg{
+
+    margin-left: 120px;
+  }
+
+  .accordion{
+
+    border: none;
+    background: white;
+  }
+}
+
+
+.row{
+
+  gap: 24px;
+}
+
+
+}
