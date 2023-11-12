@@ -60,8 +60,8 @@ import {
             <span class="new-price">$130.00</span>
             <span class="old-price">From $ ${cart.price}</span>
         </div>
-        <button class="add-to-card d-flex justify-content-center align-self-center align-items-center ">
-            <span>Add to card</span>
+        <button id="${cart.id}" class="add-to-card d-flex justify-content-center align-self-center align-items-center ">
+            <a href="details.html?id=${cart.id}">Details</a>
         </button>
     </div>
 
@@ -338,14 +338,7 @@ function displayFilteredProducts(filteredProducts) {
   }
 }
 
-
-
-
-
-
-
+let details = document.querySelectorAll(".add-to-card")
+details.forEach(function (btn) {
   
-
-
-
-
+})
