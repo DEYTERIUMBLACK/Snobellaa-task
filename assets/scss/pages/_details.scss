@@ -1,0 +1,204 @@
+#product {
+  .sizes {
+    .product-mini-img {
+      width: 72px;
+      height: 94px;
+      flex-shrink: 0;
+      border-radius: 3px;
+      border: 1px solid #e4e4e4;
+      margin: 10px 0;
+      img {
+        width: 70px;
+        height: 79px;
+        flex-shrink: 0;
+      }
+    }
+  }
+  .product {
+    margin: 20px;
+    width: 456px;
+    height: 473px;
+    flex-shrink: 0;
+    .new {
+      width: 79px;
+      height: 32px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background-color: #43d167;
+      span {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .product-img {
+      width: 340px;
+      height: 379px;
+      flex-shrink: 0;
+    }
+  }
+  .product-params {
+    margin-left: 69px;
+    .product-name {
+      color: #212121;
+      font-family: Rubik;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%;
+    }
+    .product-pieces {
+      .piece-box {
+        width: 224px;
+        height: 60px;
+        flex-shrink: 0;
+        margin: 8px;
+        border-radius: 8px;
+        border: 1px solid #e4e4e4;
+        .piece-count {
+          color: rgba(33, 33, 33, 0.9);
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 23.8px */
+        }
+        .piece-price {
+          color: #f75145;
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 170%; /* 30.6px */
+        }
+      }
+    }
+  }
+  .product-size-color {
+    .size {
+      span {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        margin: 7px;
+      }
+      .size-boxes {
+        .size-box {
+          width: 64px;
+          height: 40px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          border: 1px solid #e4e4e4;
+          margin: 7px;
+          color: rgba(33, 33, 33, 0.9);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 27.2px */
+        }
+      }
+    }
+    .color {
+      span {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        margin: 7px;
+      }
+      .color1 {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #cd5c0b;
+        margin: 10px;
+      }
+      .color2 {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #0085ff;
+        margin: 10px;
+      }
+      .color3 {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #35783b;
+        margin: 10px;
+      }
+      .color4 {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #ed0875;
+        margin: 10px;
+      }
+    }
+  }
+  .buttons {
+    padding: 10px;
+    .addtocard {
+      border: none;
+      width: 244px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background-color: #df4244;
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%; /* 27.2px */
+      margin-right: 10px;
+    }
+    .cashpayment {
+      margin-left: 10px;
+      border-radius: 8px;
+      border: 1px solid #212121;
+      width: 244px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #fff;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%; /* 27.2px */
+    }
+  }
+}
+#desc {
+  .desc-header {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 34px */
+  }
+  .desctext {
+    color: rgba(33, 33, 33, 0.75);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 27.2px */
+  }
+}
